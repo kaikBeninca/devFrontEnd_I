@@ -56,6 +56,10 @@ h3 {
     font-size: 19px;
 }
 
+.anatomia-fontes {
+    width: 920px;
+}
+
 ul {
     list-style: disc;
     margin-left: 48px;
@@ -115,11 +119,107 @@ thead {
 }
 
 th, td {
-    width: 300px;
+    width: 180px;
     border: 1px solid #222222;
     border-top: none;
     padding: 3px;
-    font-size: 20px;
+    vertical-align: middle;
+}
+
+.timesNormal {
+    font: normal 20px 'Times New Roman';
+}
+
+.timesBold {
+    font: bold 20px 'Times new Roman';
+}
+
+.timesItalico {
+    font: italic normal 20px 'Times New Roman';
+}
+
+.arialNormal {
+    font: normal 20px 'arial';
+}
+
+.arialBold {
+    font: bold 20px 'arial';
+}
+
+.arialItalico {
+    font: italic normal 20px 'arial';
+}
+
+.georgiaNormal {
+    font: normal 20px 'georgia';
+}
+
+.georgiaBold {
+    font: bold 20px 'georgia';
+}
+
+.georgiaItalico {
+    font: italic normal 20px 'georgia';
+}
+
+.helveticaNormal {
+    font: normal 20px 'helvetica';
+}
+
+.helveticaBold {
+    font: bold 20px 'helvetica';
+}
+
+.helveticaItalico {
+    font: italic normal 20px 'helvetica';
+}
+
+.paladinoNormal {
+    font: normal 20px 'paladino';
+}
+
+.paladinoBold {
+    font: bold 20px 'paladino';
+}
+
+.paladinoItalico {
+    font: italic normal 20px 'paladino';
+}
+
+.verdanaNormal {
+    font: normal 20px 'verdana';
+}
+
+.verdanaBold {
+    font: bold 20px 'verdana';
+}
+
+.verdanaItalico {
+    font: italic normal 20px 'verdana';
+}
+
+.garamondNormal {
+    font: normal 20px 'garamond';
+}
+
+.garamondBold {
+    font: bold 20px 'garamond';
+}
+
+.garamondItalico {
+    font: italic normal 20px 'garamond';
+}
+
+.tohamaNormal {
+    font: normal 20px 'tohama';
+}
+
+.tohamaBold {
+    font: bold 20px 'tohama';
+}
+
+.tohamaItalico {
+    font: italic normal 20px 'tohama';
 }
 
 tfoot {
