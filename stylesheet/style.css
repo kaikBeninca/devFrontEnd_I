@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&display=swap');
+
+@font-face {
+    font-family: spinyLobster;
+    src: url(/fontes/spiny_lobster/Spiny\ Lobster\ DEMO.ttf);
+}
+
+@font-face {
+    font-family: superBubbly;
+    src: url(/fontes/super_bubbly/Super\ Bubbly.ttf);
+}
+
+body {
+    font-family: 'arial', sans-serif;
+    background-color: #b5b698;
+    color: #333;
+}
+
+header {
+    background-color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 940px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    text-align: justify;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    padding: 100px 0;
+}
+
+p {
+    margin-left: 10px;
+    padding: 5px 10px 5px 0;
+}
+
+h2 {
+    margin: 10px 0 10px 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    margin: 10px 0 10px 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 48px;
+    padding: 5px 10px 10px 0;
+}
+
+li {
+    margin-top: 10px
+}
+
+strong {
+    font-weight: bold;
+}
+
+.serifadas {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+}
+
+.monoespacadas {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.handwriting {
+    font-family: 'Pacifico', 'Kaushan script', sans-serif;
+}
+
+.display {
+    font-family: spinyLobster, superBubbly, Impact, sans-serif; 
+}
+
+a {
+    color: #333333;
+}
+
+caption {
+    font-size: 1.5em;
+    color: #444;
+    padding: 10px;
+    background-color: #777777;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #222222;
+}
+
+table {
+    margin: 25px auto;
+}
+
+thead {
+    background-color: #777777;
+    color: white;
+    font: bold;
+}
+
+th, td {
+    width: 300px;
+    border: 1px solid #222222;
+    border-top: none;
+    padding: 3px;
+    font-size: 20px;
+}
+
+tfoot {
+    background-color: #777777;
+}
