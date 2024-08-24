@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: spinyLobster;
-    src: url(/fontes/spiny_lobster/Spiny\ Lobster\ DEMO.ttf);
+    src: url(/fontes/spiny_lobster/Spiny\ Lobster\ DEMO.ttf) format(truetype);
 }
 
 @font-face {
     font-family: superBubbly;
-    src: url(/fontes/super_bubbly/Super\ Bubbly.ttf);
+    src: url(/fontes/super_bubbly/Super\ Bubbly.ttf) format(truetype);
 }
 
 body {
@@ -72,6 +72,10 @@ li {
 
 strong {
     font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
 
 .serifadas {
@@ -224,4 +228,8 @@ th, td {
 
 tfoot {
     background-color: #777777;
+}
+
+.guiaImportFont {
+    text-align: center;
 }
